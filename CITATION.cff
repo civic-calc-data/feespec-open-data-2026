@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use these datasets in an article, report, or analysis, please cite FeeSpec as below."
+title: "FeeSpec Open Data 2026: US Marketplace Seller Fees, eBay Sales-Tax FVF Impact, and Payment Processing Cost Index"
+type: dataset
+version: "2026.11"
+date-released: "2026-11-24"
+license: CC-BY-4.0
+url: "https://feespec.com/reports/"
+authors:
+  - name: "FeeSpec"
+    website: "https://feespec.com/"
+    email: "contact@feespec.com"
+keywords:
+  - ecommerce-fees
+  - ebay-fees
+  - stripe-pricing
+  - paypal-fees
+  - etsy-fees
+  - poshmark-fees
+  - sales-tax
+  - payment-processing
+  - open-data
+abstract: "Three open CSV datasets modeling 2026 US marketplace seller payouts across 8 platforms, eBay's effective Final Value Fee across all 50 US states plus DC due to sales-tax inclusion, and payment processing fees from $5 to $10,000 across Stripe, PayPal, and Square."
