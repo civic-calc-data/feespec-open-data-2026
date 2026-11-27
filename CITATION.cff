@@ -2,8 +2,8 @@ cff-version: 1.2.0
 message: "If you use these datasets in an article, report, or analysis, please cite FeeSpec as below."
 title: "FeeSpec Open Data 2026: US Marketplace Seller Fees, eBay Sales-Tax FVF Impact, and Payment Processing Cost Index"
 type: dataset
-version: "2026.11"
-date-released: "2026-11-24"
+version: "2026.11.1"
+date-released: "2026-11-27"
 license: CC-BY-4.0
 url: "https://feespec.com/reports/"
 authors:

@@ -18,17 +18,20 @@ All figures are computed from published 2026 fee schedules and Tax Foundation st
 
 Key findings from [`data/marketplace-seller-fees-2026-2027.csv`](data/marketplace-seller-fees-2026-2027.csv):
 - On a **$100** sale, seller net payout spans **$16.52** between PayPal G&S ($96.52) and Poshmark ($80.00).
-- On a **$500** sale, the gap widens to **$84.56** ($484.56 on PayPal G&S and $481.81 on Depop US vs. $426.49 on eBay Standard and $400.00 on Poshmark).
+- On a **$500** sale, the gap widens to **$84.56** ($484.56 on PayPal G&S and $481.81 on Depop US vs. $426.48 on eBay Standard and $400.00 on Poshmark).
 - On a **$1,000** sale, choosing the platform changes seller payout by **$169.61** ($969.61 vs. $800.00). At **$2,000**, the spread reaches **$339.71**.
+- A Basic Store subscription (12.7% Final Value Fee up to $2,500 instead of 13.6%) adds **$0.96** to the eBay payout on a $100 sale and **$19.35** on a $2,000 sale, before the monthly store fee.
 
-| Sale price | PayPal G&S | Depop US | TikTok Shop | Etsy US | Mercari US | Whatnot US | eBay Basic | eBay Std | Poshmark US | Payout spread |
+| Sale price | PayPal G&S | Depop US | TikTok Shop | Etsy US | Mercari US | Whatnot US | eBay Basic Store | eBay Std | Poshmark US | Payout spread |
 |---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| $15 | $14.06 | $14.02 | $14.10 | $13.09 | $13.50 | $13.03 | $12.61 | $12.41 | $12.00 | $2.10 |
-| $50 | $48.01 | $47.78 | $47.00 | $44.69 | $45.00 | $44.14 | $42.96 | $42.29 | $40.00 | $8.01 |
-| $100 | $96.52 | $96.00 | $94.00 | $89.82 | $90.00 | $88.58 | $86.32 | $84.98 | $80.00 | $16.52 |
-| $500 | $484.56 | $481.81 | $470.00 | $450.92 | $450.00 | $444.11 | $433.21 | $426.49 | $400.00 | $84.56 |
-| $1,000 | $969.61 | $964.07 | $940.00 | $902.29 | $900.00 | $888.52 | $866.81 | $853.37 | $800.00 | $169.61 |
-| $2,000 | $1,939.71 | $1,928.59 | $1,880.00 | $1,805.04 | $1,800.00 | $1,777.34 | $1,734.03 | $1,707.15 | $1,600.00 | $339.71 |
+| $15 | $14.06 | $14.02 | $14.10 | $13.09 | $13.50 | $13.03 | $12.55 | $12.41 | $12.00 | $2.10 |
+| $25 | $23.76 | $23.66 | $23.50 | $22.11 | $22.50 | $21.92 | $21.19 | $20.94 | $20.00 | $3.76 |
+| $50 | $48.01 | $47.78 | $47.00 | $44.69 | $45.00 | $44.14 | $42.77 | $42.29 | $40.00 | $8.01 |
+| $100 | $96.52 | $96.00 | $94.00 | $89.82 | $90.00 | $88.58 | $85.94 | $84.98 | $80.00 | $16.52 |
+| $250 | $242.03 | $240.68 | $235.00 | $225.24 | $225.00 | $221.90 | $215.46 | $213.04 | $200.00 | $42.03 |
+| $500 | $484.56 | $481.81 | $470.00 | $450.92 | $450.00 | $444.11 | $431.32 | $426.48 | $400.00 | $84.56 |
+| $1,000 | $969.61 | $964.07 | $940.00 | $902.29 | $900.00 | $888.52 | $863.04 | $853.36 | $800.00 | $169.61 |
+| $2,000 | $1,939.71 | $1,928.58 | $1,880.00 | $1,805.03 | $1,800.00 | $1,777.33 | $1,726.47 | $1,707.12 | $1,600.00 | $339.71 |
 
 ---
 
@@ -37,7 +40,7 @@ Key findings from [`data/marketplace-seller-fees-2026-2027.csv`](data/marketplac
 Because eBay calculates its 13.60% standard Final Value Fee on the buyer's total payment including collected state and local sales tax, a seller's effective fee depends on where the buyer lives:
 - **Zero-tax states (DE, MT, NH, OR):** effective FVF stays at **13.60%** ($68.40 total fee on a $500 order).
 - **Louisiana (10.11% avg combined tax):** effective FVF rises to **14.97%**, adding **$6.87** per $500 sale ($75.27 total).
-- **Alabama & Arkansas (9.46%):** effective FVF reaches **14.89%** (+$6.43 per $500 sale).
+- **Tennessee (9.61%), Washington (9.51%), Alabama and Arkansas (9.46%):** effective FVF reaches **14.89% to 14.91%** (+$6.43 to +$6.53 per $500 sale).
 - **California (8.99%) & Illinois (8.96%):** effective FVF hits **14.82%** (+$6.11 and +$6.09 per $500 sale).
 
 Full 51-row table (50 states + DC) is in [`data/ebay-hidden-sales-tax-fee.csv`](data/ebay-hidden-sales-tax-fee.csv).
